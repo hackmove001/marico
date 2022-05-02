@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.min.css?_v=20220502201454" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;700&display=swap&_v=20220502201454"
+			rel="stylesheet"
+		/>
+		<title>Log in to Marico</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container container">
+					<div class="header__row row">
+						<div class="header__burger"><span></span></div>
+						<a href="index.html" class="header__logo">
+							<svg width="46" height="43">
+								<use xlink:href="img/sprite.svg#logo"></use>
+							</svg>
+							<span>Marico</span>
+						</a>
+						<nav class="header__nav">
+							<ul class="header__list">
+								<li class="header__link"><a href="">Use cases</a></li>
+								<li class="header__link"><a href="about.html">About</a></li>
+								<li class="header__link active">
+									<a href="pricing.html">Pricing</a>
+								</li>
+								<li class="header__link"><a href="blog.html">Blog</a></li>
+							</ul>
+						</nav>
+						<div class="header__account">
+							<a href="login.html" class="header__login">Login</a>
+							<a href="signup.html" class="header__signup">Sign Up</a>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div class="main">
+				<section class="login">
+					<div class="login__container container">
+						<div class="login__header">
+							<h2 class="login__title title">Log in</h2>
+							<div class="login__desc">Login into existing account.</div>
+						</div>
+						<form class="login__form">
+							<div class="login__input-wrapper">
+								<input
+									type="text"
+									class="login__input"
+									required
+									placeholder="Username"
+								/>
+								<svg width="27" height="32">
+									<use xlink:href="img/sprite.svg#user-icon"></use>
+								</svg>
+							</div>
+							<div class="login__input-wrapper">
+								<input
+									type="password"
+									class="login__input"
+									required
+									placeholder="Password"
+								/>
+								<svg width="34" height="25">
+									<use xlink:href="img/sprite.svg#eye-icon"></use>
+								</svg>
+							</div>
+							<button class="login__btn btn btn-blue">Log in</button>
+						</form>
+					</div>
+				</section>
+				<section class="or-social">
+					<div class="or-social__container container">
+						<div class="or-social__header">
+							<h3 class="or-social__title">Or</h3>
+							<div class="or-social__desc">Log in with...</div>
+						</div>
+						<div class="or-social__row row">
+							<a href="" class="or-social__btn">
+								<svg width="36" height="35">
+									<use xlink:href="img/sprite.svg#facebook-social"></use>
+								</svg>
+								Log in with Facebook
+							</a>
+							<a href="" class="or-social__btn">
+								<svg width="35" height="35">
+									<use xlink:href="img/sprite.svg#google-social"></use>
+								</svg>
+								Log in with Google
+							</a>
+							<a href="" class="or-social__btn">
+								<svg width="34" height="40">
+									<use xlink:href="img/sprite.svg#apple-social"></use>
+								</svg>
+								Log in with Apple
+							</a>
+						</div>
+						<a href="signup.html" class="or-social__has-account"
+							>Don’t have an account? Create One.</a
+						>
+					</div>
+				</section>
+				<script src="js/app.js?_v=20220502201454"></script>
+			</div>
+		</div>
+	</body>
+</html>
